@@ -11,3 +11,4 @@ Includes:
 - Commands
 - Practical
 - Videos
+- Projects
