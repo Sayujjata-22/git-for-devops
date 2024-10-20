@@ -12,7 +12,7 @@ touch fileA.txt fileB.txt
 rm fileB.txt
 vim test.txt
 cat fileB.txt
-3. Git Initialization
+3. Git Initialization for me
 git init
 4. Viewing Git Status
 git status
