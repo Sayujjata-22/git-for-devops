@@ -1,64 +1,116 @@
-Basic Commands
-Initialize a Git Repository git init
 
-Check Status of Files git status
+## Basic Commands
+- **Initialize a Git Repository**
+  ```bash
+  git init
+  ```
 
-List Files ls
-ls -l
-ls -a
+- **Check Status of Files**
+  ```bash
+  git status
+  ```
 
-Working with Files
-Create Files touch file1.txt file2.txt
+- **List Files**
+  ```bash
+  ls
+  ls -l
+  ls -a
+  ```
 
-Edit Files (using Vim) vim hello-world.txt
-vim hello.txt
-vim file1
-vim file2.txt
+## Working with Files
+- **Create Files**
+  ```bash
+  touch file1.txt file2.txt
+  ```
 
-View File Contents cat hello-world.txt
-cat hello.txt
-cat file1
+- **Edit Files (using Vim)**
+  ```bash
+  vim hello-world.txt
+  vim hello.txt
+  vim file1
+  vim file2.txt
+  ```
 
-Remove Files rm hello-world.txt
-rm hello.txt
-rm file2.txt
+- **View File Contents**
+  ```bash
+  cat hello-world.txt
+  cat hello.txt
+  cat file1
+  ```
 
-Untrack a File without Deleting git rm --cached file1.txt
+- **Remove Files**
+  ```bash
+  rm hello-world.txt
+  rm hello.txt
+  rm file2.txt
+  ```
 
-Staging and Committing Changes
-Stage Files for Commit git add hello.txt
-git add file1.txt file2.txt
-git add file3.txt
-git add file1
+- **Untrack a File without Deleting**
+  ```bash
+  git rm --cached file1.txt
+  ```
 
-Commit Changes git commit -m "adding file1 and file2"
-git commit -m "adding hello"
-git commit -m "adding updated version of file"
-git commit -m "added new file file1"
-git commit -m "adding new file from dev branch"
+## Staging and Committing Changes
+- **Stage Files for Commit**
+  ```bash
+  git add hello.txt
+  git add file1.txt file2.txt
+  git add file3.txt
+  git add file1
+  ```
 
-Branching and Switching
-Create and Switch to a New Branch git checkout -b dev
-git checkout -b master
-git checkout -b from-dev
-git checkout -b from-master
+- **Commit Changes**
+  ```bash
+  git commit -m "adding file1 and file2"
+  git commit -m "adding hello"
+  git commit -m "adding updated version of file"
+  git commit -m "added new file file1"
+  git commit -m "adding new file from dev branch"
+  ```
 
-Switch Between Branches git checkout dev
-git checkout master
-git switch master
-git switch dev
+## Branching and Switching
+- **Create and Switch to a New Branch**
+  ```bash
+  git checkout -b dev
+  git checkout -b master
+  git checkout -b from-dev
+  git checkout -b from-master
+  ```
 
-Viewing Project History
-View Commit Log git log
-git log --oneline
-git logs
+- **Switch Between Branches**
+  ```bash
+  git checkout dev
+  git checkout master
+  git switch master
+  git switch dev
+  ```
 
-View Branches git branch
+## Viewing Project History
+- **View Commit Log**
+  ```bash
+  git log
+  git log --oneline
+  git logs
+  ```
 
-Miscellaneous Commands
-Clear Terminal clear
+- **View Branches**
+  ```bash
+  git branch
+  ```
 
-Print Working Directory pwd
+## Miscellaneous Commands
+- **Clear Terminal**
+  ```bash
+  clear
+  ```
 
-Additional Commands
-Create a Directory for Project mkdir git-for-devops
+- **Print Working Directory**
+  ```bash
+  pwd
+  ```
+
+## Additional Commands
+- **Create a Directory for Project**
+  ```bash
+  mkdir git-for-devops
+  ```
